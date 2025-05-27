@@ -140,24 +140,24 @@
 // ques no 16 
 // find factorial of any number take by prompt
 // ans
-// var num = +prompt('enter any number');
-// var factorial = 1;
-// for(var i = 1; i<= num; i++){factorial = factorial * i}
-// console.log(factorial);
+ var num = +prompt('enter any number');
+var factorial = 1;
+ for(var i = 1; i<= num; i++){factorial = factorial * i}
+ console.log(factorial);
 // ==========================================================================
 // ques no 17 
 // Multiplication Table
 // Ask the user for a number and print its multiplication table up to 10.
 // ans 
-// var enter_number = +prompt('enter a number')
+ var enter_number = +prompt('enter a number')
 
-// for(var i = 1; i<=10; i++){console.log(i*enter_number)}
-// ===============================================================================
-// ques no 18 
+ for(var i = 1; i<=10; i++){console.log(i*enter_number)}
+//  ===============================================================================
+//  ques no 18 
 // Reverse Counting
-// Print numbers from 10 to 1 using a for loop.
-// ans 
-// for(var i = 10; i >= 1; i--){document.write(`${i}<br>`)}
+//  Print numbers from 10 to 1 using a for loop.
+ ans 
+ for(var i = 10; i >= 1; i--){document.write(`${i}<br>`)}
 // =============================================================================================
 // ques no 19
 // Print All Odd Numbers from 1 to 50
@@ -167,10 +167,3 @@
 // ques no 20 
 // print all even numbers from 1 to 100
 // for(i = 1; i <= 100; i++){if(i%2 === 0){console.log(i)}}
-// =========================================================================
-// ques no 21 
-// Find the Sum of Digits of a Number
-// Example: If the number is 123, output should be 1 + 2 + 3 = 6.
-// ans 
-var num = +prompt('enter number');
-for(var i = 1; i<= num; i++){console.log(i)}
